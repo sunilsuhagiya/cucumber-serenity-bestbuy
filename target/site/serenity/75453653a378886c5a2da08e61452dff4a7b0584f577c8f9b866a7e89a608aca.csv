@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Products CRUD test with steps","Update Product name by ID","SUCCESS","2023-01-11T04:39:32.308+10:00[Australia/Brisbane]","0.0","9.66"
+"Products CRUD test with steps","This will create new product","SUCCESS","2023-01-11T04:39:42.037+10:00[Australia/Brisbane]","0.0","2.55"
+"Products CRUD test with steps","Getting the product information with id:","SUCCESS","2023-01-11T04:39:44.590+10:00[Australia/Brisbane]","0.0","0.05"
+"Products CRUD test with steps","Updating product information and verify the updated information","SUCCESS","2023-01-11T04:39:44.639+10:00[Australia/Brisbane]","0.0","0.09"
+"Products CRUD test with steps","Deleting product with id and verify that user is deleted","SUCCESS","2023-01-11T04:39:44.727+10:00[Australia/Brisbane]","0.0","0.09"
+"Products CRUD test with steps","Delete Product name by ID","SUCCESS","2023-01-11T04:39:44.820+10:00[Australia/Brisbane]","0.0","0.03"

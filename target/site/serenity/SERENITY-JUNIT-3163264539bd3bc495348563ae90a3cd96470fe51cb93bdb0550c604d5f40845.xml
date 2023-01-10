@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Testing different request on the best buy API" skipped="0" tests="1" time="1.58" timestamp="2023-01-11T04:39:45.837+10:00[Australia/Brisbane]"><testcase name="Products CRUD Test"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.bestbuy.cucumber.steps.ProductCRUDStepDef.iCreateProductWithNameTypePriceShippingUpcDescriptionManufactureModelUrlImage(ProductCRUDStepDef.java:22)&#13;
+✽.When I create product with name "Duracell" type "HardGood" price"8.50" shipping"7854226784" upc"Compatible with select electronic" description"Duracell" manufacture"&lt;manufacture&gt;" model"SG" url"http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC" image"http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg"(productCRUD.feature:6)&#13;
+</system-err></testcase></testsuite>

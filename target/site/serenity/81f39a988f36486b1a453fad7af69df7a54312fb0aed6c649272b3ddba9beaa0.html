@@ -1,0 +1,2846 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Data driven test for adding multiple products to the application</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- ImgPreview -->
+<script src="scripts/imgpreview.full.jquery.js" type="text/javascript"></script>
+</head>
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">bestbuy</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs">Home</a>
+
+            > Data driven test for adding multiple products to the application
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-01-2023 04:39</span>
+    <br style="clear:left"/>
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Stores Data Driven Test</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                    <span class="success-color">
+                                    Data Driven Test For Adding Multiple Products To The Application
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3 class="story-header">Scenario Outline</h3>
+
+        <div class="scenario">Creating a store with name:{{&lt;ADDRESS2&gt;}},type:&lt;TYPE&gt;,address:&lt;ADDRESS&gt;,address2:&lt;ADDRESS2&gt;,city:&lt;CITY&gt;,state:&lt;STATE&gt;,zip:&lt;ZIP&gt;,lat:&lt;ADDRESS2&gt;,lang:&lt;ADDRESS2&gt;,hours:&lt;HOURS&gt;</div>
+
+    </div>
+
+    <div id="beforetable"></div>
+
+
+        <h3 class="story-header">Examples:</h3>
+        <div class="example-table">
+            <table>
+                <thead>
+                <tr>
+                    <th>#</th>
+                        <th>NAME</th>
+                        <th>TYPE</th>
+                        <th>ADDRESS</th>
+                        <th>Address2</th>
+                        <th>CITY</th>
+                        <th>STATE</th>
+                        <th>ZIP</th>
+                        <th>LAT</th>
+                        <th>LNG</th>
+                        <th>HOURS</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#0">1</a></td>
+                            <td class="test-SUCCESS"><a href="#0">Glen</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">Hutfield</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">Room 1899</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">0</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">Bergen</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">4.0</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">4.1</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">6:56 AM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#1">2</a></td>
+                            <td class="test-SUCCESS"><a href="#1">Pierre</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">Janecki</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">PO Box 24817</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">kjlsagf</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">Pushkino</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">2.3</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">4.4</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">12:42 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#2">3</a></td>
+                            <td class="test-SUCCESS"><a href="#2">Rodolph</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">Newlyn</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">Room 1629</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">kjlsagf</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">Bunirasa</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">4.0</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">3.4</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">7:54 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#3">4</a></td>
+                            <td class="test-SUCCESS"><a href="#3">Vinnie</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">Tilney</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">Room 1471</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">lk;sadh</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">Ciketak</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">3.1</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">2.1</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">9:56 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#4">5</a></td>
+                            <td class="test-SUCCESS"><a href="#4">Emmit</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">Bleackly</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">Apt 1375</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">lk;sadh</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">Verkhnyaya Toyma</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">queensland</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">3.8</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">4.8</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">6:51 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#5">6</a></td>
+                            <td class="test-SUCCESS"><a href="#5">Otis</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">Eastcott</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">PO Box 96228</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">kjlsagf</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">Sernancelhe</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">queensland</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">4.7</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">4.6</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">2:32 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#6">7</a></td>
+                            <td class="test-SUCCESS"><a href="#6">Faina</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">Hubach</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">Room 1962</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">lk;sadh</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">Liure</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">queensland</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">4.4</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">4.4</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">6:31 AM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#7">8</a></td>
+                            <td class="test-SUCCESS"><a href="#7">Torey</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">Trippick</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">Apt 1429</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">lk;sadh</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">Dongtang</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">queensland</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">2.6</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">3.1</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">7:38 AM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#8">9</a></td>
+                            <td class="test-SUCCESS"><a href="#8">Virginie</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">Castanares</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">Apt 1938</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">kjlsagf</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">Boulsa</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">3.2</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">3.8</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">10:44 AM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#9">10</a></td>
+                            <td class="test-SUCCESS"><a href="#9">Chickie</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">Howorth</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">Suite 39</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">0</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">Cabuyao</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">3.2</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">4.9</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">8:43 AM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#10">11</a></td>
+                            <td class="test-SUCCESS"><a href="#10">Corette</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">Lenard</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">Room 1789</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">0</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">Stroitel&rsquo;</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">2.0</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">2.8</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">3:04 AM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#11">12</a></td>
+                            <td class="test-SUCCESS"><a href="#11">Rebe</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">Alexandersson</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">Apt 1118</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">lk;sadh</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">Mawang</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">queensland</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">3.9</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">4.7</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">4:37 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#12">13</a></td>
+                            <td class="test-SUCCESS"><a href="#12">Yvette</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">Stannislawski</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">2nd Floor</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">kjlsagf</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">Caobi</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">3.5</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">3.6</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">5:36 AM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#13">14</a></td>
+                            <td class="test-SUCCESS"><a href="#13">Bevin</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">Parram</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">5th Floor</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">0</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">Shikhazany</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">3.6</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">4.8</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">2:54 AM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#14">15</a></td>
+                            <td class="test-SUCCESS"><a href="#14">Michail</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">Lissandre</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">Apt 871</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">lk;sadh</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">Bergvliet</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">4.5</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">3.9</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">9:59 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#15">16</a></td>
+                            <td class="test-SUCCESS"><a href="#15">Terencio</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">Liptrod</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">Suite 94</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">kjlsagf</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">Xingbin</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">queensland</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">3.9</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">4.9</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">7:35 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#16">17</a></td>
+                            <td class="test-SUCCESS"><a href="#16">Maximilien</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">Wimmer</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">2nd Floor</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">kjlsagf</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">R&ouml;nninge</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">mumbai</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">4.3</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">2.3</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">3:42 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#17">18</a></td>
+                            <td class="test-SUCCESS"><a href="#17">Amandi</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">Masseo</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">1st Floor</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">lk;sadh</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">Miribel</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">queensland</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">4.0</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">2.7</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">11:50 AM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#18">19</a></td>
+                            <td class="test-SUCCESS"><a href="#18">Janey</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">Edds</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">Room 1279</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">0</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">Catarina</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">queensland</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">2.3</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">3.0</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">10:41 PM</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#19">20</a></td>
+                            <td class="test-SUCCESS"><a href="#19">Haslett</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">Catherine</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">16th Floor</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">lk;sadh</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">Kopang Satu</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">queensland</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">ha91ab</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">2.1</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">3.3</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">9:17 AM</a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    <div id="tablecontents">
+        <div>
+            <table class="step-table">
+                <tr class="step-titles">
+                    <th width="65">                        &nbsp;
+                    </th>
+
+                    <th width="%" class="step-description-wide-column greentext">
+                        Steps
+                    </th>
+                    <th width="100" class="greentext">Outcome</th>
+                    <th width="75" class="greentext">Duration</th>
+                </tr>
+                <tr class="step-table-separator">
+                    <td colspan="5"></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="0"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection0" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Glen,type:Hutfield,address:Room 1899,address2:0,city:Bergen,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:6:56 AM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-3">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-3" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Glen&quot;,<br>    &quot;type&quot;: &quot;Hutfield&quot;,<br>    &quot;address&quot;: &quot;Room 1899&quot;,<br>    &quot;address2&quot;: &quot;0&quot;,<br>    &quot;city&quot;: &quot;Bergen&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;6:56 AM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 240<br>ETag: W/&quot;f0-VXKRvsQGJXYcbz/DITMhEZRJUfQ&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8960,<br>    &quot;name&quot;: &quot;Glen&quot;,<br>    &quot;type&quot;: &quot;Hutfield&quot;,<br>    &quot;address&quot;: &quot;Room 1899&quot;,<br>    &quot;address2&quot;: &quot;0&quot;,<br>    &quot;city&quot;: &quot;Bergen&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;6:56 AM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.374Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.374Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.03s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Pierre,type:Janecki,address:PO Box 24817,address2:kjlsagf,city:Pushkino,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:12:42 PM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.03s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-6">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-6" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Pierre&quot;,<br>    &quot;type&quot;: &quot;Janecki&quot;,<br>    &quot;address&quot;: &quot;PO Box 24817&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Pushkino&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;12:42 PM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 253<br>ETag: W/&quot;fd-M3mhrHdYrfrQL0ov3tfnJ3l9Tq0&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8961,<br>    &quot;name&quot;: &quot;Pierre&quot;,<br>    &quot;type&quot;: &quot;Janecki&quot;,<br>    &quot;address&quot;: &quot;PO Box 24817&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Pushkino&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;12:42 PM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.413Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.413Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Rodolph,type:Newlyn,address:Room 1629,address2:kjlsagf,city:Bunirasa,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:7:54 PM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-9">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-9" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Rodolph&quot;,<br>    &quot;type&quot;: &quot;Newlyn&quot;,<br>    &quot;address&quot;: &quot;Room 1629&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Bunirasa&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;7:54 PM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 249<br>ETag: W/&quot;f9-U4Mm5jARRyHxuA66C//6dcVcDKg&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8962,<br>    &quot;name&quot;: &quot;Rodolph&quot;,<br>    &quot;type&quot;: &quot;Newlyn&quot;,<br>    &quot;address&quot;: &quot;Room 1629&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Bunirasa&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;7:54 PM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.462Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.462Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="3"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection3 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection3" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Vinnie,type:Tilney,address:Room 1471,address2:lk;sadh,city:Ciketak,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:9:56 PM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-12">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-12" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Vinnie&quot;,<br>    &quot;type&quot;: &quot;Tilney&quot;,<br>    &quot;address&quot;: &quot;Room 1471&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Ciketak&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;9:56 PM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 247<br>ETag: W/&quot;f7-08dL76OvPd/3Uv8H83lAP6GOMO4&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8963,<br>    &quot;name&quot;: &quot;Vinnie&quot;,<br>    &quot;type&quot;: &quot;Tilney&quot;,<br>    &quot;address&quot;: &quot;Room 1471&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Ciketak&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;9:56 PM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.521Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.521Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="4"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection4 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.04s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection4" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Emmit,type:Bleackly,address:Apt 1375,address2:lk;sadh,city:Verkhnyaya Toyma,state:queensland,zip:ha91ab,lat:0,lang:0,hours:6:51 PM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.04s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-15">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-15" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Emmit&quot;,<br>    &quot;type&quot;: &quot;Bleackly&quot;,<br>    &quot;address&quot;: &quot;Apt 1375&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Verkhnyaya Toyma&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;6:51 PM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 260<br>ETag: W/&quot;104-n7uBvicyl0JHYZZrsgGSMQPa16M&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8964,<br>    &quot;name&quot;: &quot;Emmit&quot;,<br>    &quot;type&quot;: &quot;Bleackly&quot;,<br>    &quot;address&quot;: &quot;Apt 1375&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Verkhnyaya Toyma&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;6:51 PM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.573Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.573Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="5"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection5 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.03s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection5" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Otis,type:Eastcott,address:PO Box 96228,address2:kjlsagf,city:Sernancelhe,state:queensland,zip:ha91ab,lat:0,lang:0,hours:2:32 PM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.03s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-18">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-18" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Otis&quot;,<br>    &quot;type&quot;: &quot;Eastcott&quot;,<br>    &quot;address&quot;: &quot;PO Box 96228&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Sernancelhe&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;2:32 PM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 258<br>ETag: W/&quot;102-gRYaqCMWKRZnEITSmGdGYKgsdh4&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8965,<br>    &quot;name&quot;: &quot;Otis&quot;,<br>    &quot;type&quot;: &quot;Eastcott&quot;,<br>    &quot;address&quot;: &quot;PO Box 96228&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Sernancelhe&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;2:32 PM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.611Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.611Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="6"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection6')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection6 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection6')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection6" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Faina,type:Hubach,address:Room 1962,address2:lk;sadh,city:Liure,state:queensland,zip:ha91ab,lat:0,lang:0,hours:6:31 AM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-21">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-21" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Faina&quot;,<br>    &quot;type&quot;: &quot;Hubach&quot;,<br>    &quot;address&quot;: &quot;Room 1962&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Liure&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;6:31 AM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 248<br>ETag: W/&quot;f8-2SnjC+tDaMZ0vJgFL/p7V43EJIE&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8966,<br>    &quot;name&quot;: &quot;Faina&quot;,<br>    &quot;type&quot;: &quot;Hubach&quot;,<br>    &quot;address&quot;: &quot;Room 1962&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Liure&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;6:31 AM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.658Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.658Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="7"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection7')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection7 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection7')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection7" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Torey,type:Trippick,address:Apt 1429,address2:lk;sadh,city:Dongtang,state:queensland,zip:ha91ab,lat:0,lang:0,hours:7:38 AM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-24">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-24" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Torey&quot;,<br>    &quot;type&quot;: &quot;Trippick&quot;,<br>    &quot;address&quot;: &quot;Apt 1429&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Dongtang&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;7:38 AM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 252<br>ETag: W/&quot;fc-j0JEaa92VTipWqNZi5rKyrCwClo&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8967,<br>    &quot;name&quot;: &quot;Torey&quot;,<br>    &quot;type&quot;: &quot;Trippick&quot;,<br>    &quot;address&quot;: &quot;Apt 1429&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Dongtang&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;7:38 AM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.717Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.717Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="8"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection8')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection8 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection8')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection8" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Virginie,type:Castanares,address:Apt 1938,address2:kjlsagf,city:Boulsa,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:10:44 AM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-27">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-27" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Virginie&quot;,<br>    &quot;type&quot;: &quot;Castanares&quot;,<br>    &quot;address&quot;: &quot;Apt 1938&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Boulsa&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;10:44 AM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 252<br>ETag: W/&quot;fc-Zavb/T6EcUMWb0Mhvn6JgMOXjEo&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8968,<br>    &quot;name&quot;: &quot;Virginie&quot;,<br>    &quot;type&quot;: &quot;Castanares&quot;,<br>    &quot;address&quot;: &quot;Apt 1938&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Boulsa&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;10:44 AM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.776Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.776Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="9"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection9')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection9 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection9')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.03s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection9" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Chickie,type:Howorth,address:Suite 39,address2:0,city:Cabuyao,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:8:43 AM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.03s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-30">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-30" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Chickie&quot;,<br>    &quot;type&quot;: &quot;Howorth&quot;,<br>    &quot;address&quot;: &quot;Suite 39&quot;,<br>    &quot;address2&quot;: &quot;0&quot;,<br>    &quot;city&quot;: &quot;Cabuyao&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;8:43 AM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 242<br>ETag: W/&quot;f2-uRIeasx0Rq/nbT0psa2j9Gn83mg&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8969,<br>    &quot;name&quot;: &quot;Chickie&quot;,<br>    &quot;type&quot;: &quot;Howorth&quot;,<br>    &quot;address&quot;: &quot;Suite 39&quot;,<br>    &quot;address2&quot;: &quot;0&quot;,<br>    &quot;city&quot;: &quot;Cabuyao&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;8:43 AM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.818Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.818Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="10"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection10')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection10 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection10')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection10" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Corette,type:Lenard,address:Room 1789,address2:0,city:Stroitel’,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:3:04 AM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-33">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-33" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Corette&quot;,<br>    &quot;type&quot;: &quot;Lenard&quot;,<br>    &quot;address&quot;: &quot;Room 1789&quot;,<br>    &quot;address2&quot;: &quot;0&quot;,<br>    &quot;city&quot;: &quot;Stroitel’&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;3:04 AM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 246<br>ETag: W/&quot;f6-BhfCVFhHVW/VN9RYHZ+Gca2CVUo&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8970,<br>    &quot;name&quot;: &quot;Corette&quot;,<br>    &quot;type&quot;: &quot;Lenard&quot;,<br>    &quot;address&quot;: &quot;Room 1789&quot;,<br>    &quot;address2&quot;: &quot;0&quot;,<br>    &quot;city&quot;: &quot;Stroitel’&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;3:04 AM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.869Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.869Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="11"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection11')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection11 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection11')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection11" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Rebe,type:Alexandersson,address:Apt 1118,address2:lk;sadh,city:Mawang,state:queensland,zip:ha91ab,lat:0,lang:0,hours:4:37 PM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-36">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-36" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Rebe&quot;,<br>    &quot;type&quot;: &quot;Alexandersson&quot;,<br>    &quot;address&quot;: &quot;Apt 1118&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Mawang&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;4:37 PM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 254<br>ETag: W/&quot;fe-LUiuSp+It0Y5fASUQGkmC1tprgs&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8971,<br>    &quot;name&quot;: &quot;Rebe&quot;,<br>    &quot;type&quot;: &quot;Alexandersson&quot;,<br>    &quot;address&quot;: &quot;Apt 1118&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Mawang&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;4:37 PM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.933Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.933Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="12"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection12')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection12 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection12')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.03s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection12" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Yvette,type:Stannislawski,address:2nd Floor,address2:kjlsagf,city:Caobi,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:5:36 AM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.03s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-39">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-39" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Yvette&quot;,<br>    &quot;type&quot;: &quot;Stannislawski&quot;,<br>    &quot;address&quot;: &quot;2nd Floor&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Caobi&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;5:36 AM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 252<br>ETag: W/&quot;fc-DZTWlpnKQXdoLNv4cwfK64mbdJE&quot;<br>Date: Tue, 10 Jan 2023 18:39:46 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8972,<br>    &quot;name&quot;: &quot;Yvette&quot;,<br>    &quot;type&quot;: &quot;Stannislawski&quot;,<br>    &quot;address&quot;: &quot;2nd Floor&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Caobi&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;5:36 AM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:46.985Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:46.985Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="13"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection13')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection13 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection13')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.04s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection13" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Bevin,type:Parram,address:5th Floor,address2:0,city:Shikhazany,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:2:54 AM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.04s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-42">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-42" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Bevin&quot;,<br>    &quot;type&quot;: &quot;Parram&quot;,<br>    &quot;address&quot;: &quot;5th Floor&quot;,<br>    &quot;address2&quot;: &quot;0&quot;,<br>    &quot;city&quot;: &quot;Shikhazany&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;2:54 AM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 243<br>ETag: W/&quot;f3-ukuu8sRvH3kU0A+zfnn5KH2fzE0&quot;<br>Date: Tue, 10 Jan 2023 18:39:47 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8973,<br>    &quot;name&quot;: &quot;Bevin&quot;,<br>    &quot;type&quot;: &quot;Parram&quot;,<br>    &quot;address&quot;: &quot;5th Floor&quot;,<br>    &quot;address2&quot;: &quot;0&quot;,<br>    &quot;city&quot;: &quot;Shikhazany&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;2:54 AM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:47.031Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:47.031Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="14"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection14')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection14 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection14')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.05s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection14" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Michail,type:Lissandre,address:Apt 871,address2:lk;sadh,city:Bergvliet,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:9:59 PM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.05s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-45">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-45" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Michail&quot;,<br>    &quot;type&quot;: &quot;Lissandre&quot;,<br>    &quot;address&quot;: &quot;Apt 871&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Bergvliet&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;9:59 PM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 251<br>ETag: W/&quot;fb-4+ASD71YjFEWygHL1QsldNJf/Yg&quot;<br>Date: Tue, 10 Jan 2023 18:39:47 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8974,<br>    &quot;name&quot;: &quot;Michail&quot;,<br>    &quot;type&quot;: &quot;Lissandre&quot;,<br>    &quot;address&quot;: &quot;Apt 871&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Bergvliet&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;9:59 PM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:47.081Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:47.081Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="15"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection15')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection15 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection15')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.04s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection15" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Terencio,type:Liptrod,address:Suite 94,address2:kjlsagf,city:Xingbin,state:queensland,zip:ha91ab,lat:0,lang:0,hours:7:35 PM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.04s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-48">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-48" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Terencio&quot;,<br>    &quot;type&quot;: &quot;Liptrod&quot;,<br>    &quot;address&quot;: &quot;Suite 94&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Xingbin&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;7:35 PM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 253<br>ETag: W/&quot;fd-6rjES8cEV51s3QOKqrraPzU8ccM&quot;<br>Date: Tue, 10 Jan 2023 18:39:47 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8975,<br>    &quot;name&quot;: &quot;Terencio&quot;,<br>    &quot;type&quot;: &quot;Liptrod&quot;,<br>    &quot;address&quot;: &quot;Suite 94&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Xingbin&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;7:35 PM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:47.131Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:47.131Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="16"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection16')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection16 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection16')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.03s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection16" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Maximilien,type:Wimmer,address:2nd Floor,address2:kjlsagf,city:Rönninge,state:mumbai,zip:ha91ab,lat:0,lang:0,hours:3:42 PM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.03s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-51">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-51" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Maximilien&quot;,<br>    &quot;type&quot;: &quot;Wimmer&quot;,<br>    &quot;address&quot;: &quot;2nd Floor&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Rönninge&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;3:42 PM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 253<br>ETag: W/&quot;fd-QLvktkq/ng2ePKe6OZ+1JRxeLaI&quot;<br>Date: Tue, 10 Jan 2023 18:39:47 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8976,<br>    &quot;name&quot;: &quot;Maximilien&quot;,<br>    &quot;type&quot;: &quot;Wimmer&quot;,<br>    &quot;address&quot;: &quot;2nd Floor&quot;,<br>    &quot;address2&quot;: &quot;kjlsagf&quot;,<br>    &quot;city&quot;: &quot;Rönninge&quot;,<br>    &quot;state&quot;: &quot;mumbai&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;3:42 PM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:47.172Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:47.172Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="17"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection17')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection17 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection17')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection17" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Amandi,type:Masseo,address:1st Floor,address2:lk;sadh,city:Miribel,state:queensland,zip:ha91ab,lat:0,lang:0,hours:11:50 AM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-54">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-54" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Amandi&quot;,<br>    &quot;type&quot;: &quot;Masseo&quot;,<br>    &quot;address&quot;: &quot;1st Floor&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Miribel&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;11:50 AM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 252<br>ETag: W/&quot;fc-yCWaNd1YEikT1MH6WoAH/TfLVs8&quot;<br>Date: Tue, 10 Jan 2023 18:39:47 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8977,<br>    &quot;name&quot;: &quot;Amandi&quot;,<br>    &quot;type&quot;: &quot;Masseo&quot;,<br>    &quot;address&quot;: &quot;1st Floor&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Miribel&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;11:50 AM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:47.198Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:47.198Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="18"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection18')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection18 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection18')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.03s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection18" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Janey,type:Edds,address:Room 1279,address2:0,city:Catarina,state:queensland,zip:ha91ab,lat:0,lang:0,hours:10:41 PM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.03s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-57">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-57" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Janey&quot;,<br>    &quot;type&quot;: &quot;Edds&quot;,<br>    &quot;address&quot;: &quot;Room 1279&quot;,<br>    &quot;address2&quot;: &quot;0&quot;,<br>    &quot;city&quot;: &quot;Catarina&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;10:41 PM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 244<br>ETag: W/&quot;f4-H6gAEay1Gkx42mTSjmdRUkw2AmM&quot;<br>Date: Tue, 10 Jan 2023 18:39:47 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8978,<br>    &quot;name&quot;: &quot;Janey&quot;,<br>    &quot;type&quot;: &quot;Edds&quot;,<br>    &quot;address&quot;: &quot;Room 1279&quot;,<br>    &quot;address2&quot;: &quot;0&quot;,<br>    &quot;city&quot;: &quot;Catarina&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;10:41 PM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:47.228Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:47.228Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="19"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection19')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection19 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection19')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple products to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection19" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating a store with name:Haslett,type:Catherine,address:16th Floor,address2:lk;sadh,city:Kopang Satu,state:queensland,zip:ha91ab,lat:0,lang:0,hours:9:17 AM</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST http://localhost:3030/stores</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-60">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-60" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST http://localhost:3030/stores
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 201</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;name&quot;: &quot;Haslett&quot;,<br>    &quot;type&quot;: &quot;Catherine&quot;,<br>    &quot;address&quot;: &quot;16th Floor&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Kopang Satu&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;9:17 AM&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>X-Powered-By: Express<br>Access-Control-Allow-Origin: *<br>Allow: GET,POST,PUT,PATCH,DELETE<br>Vary: Accept, Accept-Encoding<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 260<br>ETag: W/&quot;104-8oZs5zetzDn0dsqYKMBPUrwInUE&quot;<br>Date: Tue, 10 Jan 2023 18:39:47 GMT<br>Connection: keep-alive</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;id&quot;: 8979,<br>    &quot;name&quot;: &quot;Haslett&quot;,<br>    &quot;type&quot;: &quot;Catherine&quot;,<br>    &quot;address&quot;: &quot;16th Floor&quot;,<br>    &quot;address2&quot;: &quot;lk;sadh&quot;,<br>    &quot;city&quot;: &quot;Kopang Satu&quot;,<br>    &quot;state&quot;: &quot;queensland&quot;,<br>    &quot;zip&quot;: &quot;ha91ab&quot;,<br>    &quot;lat&quot;: 0,<br>    &quot;lng&quot;: 0,<br>    &quot;hours&quot;: &quot;9:17 AM&quot;,<br>    &quot;updatedAt&quot;: &quot;2023-01-10T18:39:47.255Z&quot;,<br>    &quot;createdAt&quot;: &quot;2023-01-10T18:39:47.255Z&quot;<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.79s</em></span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="beforefooter"></div>
+    <div id="bottomfooter">
+        <span class="version">Serenity BDD version 1.5.1</span>
+    </div>
+
+
+    <script type="text/javascript">
+        function toggleDiv(divId) {
+            $("#" + divId).toggle();
+            var imgsrc = $(".img" + divId).attr('src');
+            if (imgsrc == 'images/plus.png') {
+                $(".img" + divId).attr("src", function () {
+                    return "images/minus.png";
+                });
+
+            }
+            else {
+                $(".img" + divId).attr("src", function () {
+                    return "images/plus.png";
+                });
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        $('.example-table table').DataTable({
+            "order": [[0, "asc"]],
+            "pageLength": 25,
+            "scrollX": "100%",
+            "scrollXInner": "100%",
+            "scrollCollapse": true
+        });
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(document).ready(function () {
+            $('img.screenshot').imgPreview({
+                imgCSS: {
+                    width: '500px'
+                },
+                distanceFromCursor: {top: 10, left: -200}
+            });
+        });
+
+        //]]>
+    </script>
+    <div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img
+            src="" style="display: none; "></div>
+    <div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+        <img style="width: 200px; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+        <img style="height: 200px; opacity: 1; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+    <div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.bestbuy.cucumber.CucumberRunner
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 0, Errors: 2, Skipped: 17, Time elapsed: 3.594 sec <<< FAILURE! - in com.bestbuy.cucumber.CucumberRunner
+When I create product with name "Duracell" type "HardGood" price"8.50" shipping"7854226784" upc"Compatible with select electronic" description"Duracell" manufacture"<manufacture>" model"SG" url"http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&skuId=127687&cmp=RMXCC" image"http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg"(| Duracell | HardGood | 8.50 | 7854226784 | Compatible with select electronic | Duracell | MN1500B8Z | SG | http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&skuId=127687&cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg |)  Time elapsed: 0.01 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.cucumber.steps.ProductCRUDStepDef.iCreateProductWithNameTypePriceShippingUpcDescriptionManufactureModelUrlImage(ProductCRUDStepDef.java:22)
+	at ✽.When I create product with name "Duracell" type "HardGood" price"8.50" shipping"7854226784" upc"Compatible with select electronic" description"Duracell" manufacture"<manufacture>" model"SG" url"http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&skuId=127687&cmp=RMXCC" image"http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg"(productCRUD.feature:6)
+
+| Duracell | HardGood | 8.50 | 7854226784 | Compatible with select electronic | Duracell | MN1500B8Z | SG | http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&skuId=127687&cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg |  Time elapsed: 0.012 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.cucumber.steps.ProductCRUDStepDef.iCreateProductWithNameTypePriceShippingUpcDescriptionManufactureModelUrlImage(ProductCRUDStepDef.java:22)
+	at ✽.When I create product with name "Duracell" type "HardGood" price"8.50" shipping"7854226784" upc"Compatible with select electronic" description"Duracell" manufacture"<manufacture>" model"SG" url"http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&skuId=127687&cmp=RMXCC" image"http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg"(productCRUD.feature:6)
+

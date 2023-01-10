@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Products data driven test","Creating multiple products with Data driven","FAILURE","2023-01-11T04:39:41.844+10:00[Australia/Brisbane]","0.0","140.12"
+"Testing different request on the best buy API","Products CRUD Test","ERROR","2023-01-11T04:39:45.837+10:00[Australia/Brisbane]","0.0","1.58"

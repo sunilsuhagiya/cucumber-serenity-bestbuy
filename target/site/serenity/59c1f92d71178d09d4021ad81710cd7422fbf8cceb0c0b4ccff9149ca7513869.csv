@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product tags test","Provide a 500 status code when incorrect HTTP method is used to access resources","SUCCESS","2023-01-11T04:39:32.250+10:00[Australia/Brisbane]","0.0","9.44"
+"Product tags test","This test will verify if a status code of 200 is returned for GET request","SUCCESS","2023-01-11T04:39:41.745+10:00[Australia/Brisbane]","0.0","2.29"
+"Product tags test","This test will provide an error code of 400 when user tries to access an invalid resource","SUCCESS","2023-01-11T04:39:44.037+10:00[Australia/Brisbane]","0.0","0.07"

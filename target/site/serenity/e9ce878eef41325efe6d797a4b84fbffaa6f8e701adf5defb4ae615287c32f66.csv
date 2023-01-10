@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Stores CRUD test with steps","This will create new  store","SUCCESS","2023-01-11T04:39:43.140+10:00[Australia/Brisbane]","0.0","1.45"
+"Stores CRUD test with steps","Getting the store information with Name:","SUCCESS","2023-01-11T04:39:44.589+10:00[Australia/Brisbane]","0.0","0.1"
+"Stores CRUD test with steps","Updating store information and verify the updated information","SUCCESS","2023-01-11T04:39:44.686+10:00[Australia/Brisbane]","0.0","0.09"
+"Stores CRUD test with steps","Deleting store with id and verify that user is deleted","SUCCESS","2023-01-11T04:39:44.775+10:00[Australia/Brisbane]","0.0","0.07"

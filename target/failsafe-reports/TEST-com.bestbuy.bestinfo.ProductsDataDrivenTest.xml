@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="62.929" tests="20" errors="0" skipped="0" failures="11">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sunil\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sunil"/>
+    <property name="user.timezone" value="Australia/Brisbane"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sunil"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="createMultipleProduct[9]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="8.673">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Mallory",
+    "type": "Full",
+    "price": 7,
+    "shipping": 0,
+    "upc": "Bye",
+    "description": "Southern California Logistics Airport",
+    "manufacturer": "Avamba",
+    "model": "Fox, savanna",
+    "url": "http://over-blog.com/ultrices/aliquet/maecenas/leo/odio/condimentum/id.png?volutpat=non&convallis=quam&morbi=nec&odio=dui&odio=luctus&elementum=rutrum&eu=nulla&interdum=tellus&eu=in&tincidunt=sagittis&in=dui&leo=vel&maecenas=nisl&pulvinar=duis&lobortis=ac&est=nibh&phasellus=fusce&sit=lacus&amet=purus&erat=aliquet&nulla=at&tempus=feugiat&vivamus=non&in=pretium&felis=quis&eu=lectus&sapien=suspendisse&cursus=potenti&vestibulum=in&proin=eleifend&eu=quam&mi=a&nulla=odio&ac=in&enim=hac&in=habitasse&tempor=platea&turpis=dictumst&nec=maecenas&euismod=ut&scelerisque=massa&quam=quis&turpis=augue&adipiscing=luctus&lorem=tincidunt&vitae=nulla&mattis=mollis&nibh=molestie&ligula=lorem&nec=quisque&sem=ut&duis=erat&aliquam=curabitur&convallis=gravida&nunc=nisi&proin=at&at=nibh&turpis=in&a=hac&pede=habitasse&posuere=platea&nonummy=dictumst&integer=aliquam&non=augue&velit=quam&donec=sollicitudin&diam=vitae&neque=consectetuer&vestibulum=eget&eget=rutrum&vulputate=at&ut=lorem&ultrices=integer&vel=tincidunt&augue=ante&vestibulum=vel&ante=ipsum&ipsum=praesent",
+    "image": "http://dummyimage.com/14x37.png/ff4444/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Bell",
+    "type": "Empty",
+    "price": 7,
+    "shipping": 0,
+    "upc": "Hello",
+    "description": "Larsen Bay Airport",
+    "manufacturer": "Zoomlounge",
+    "model": "Rufous-collared sparrow",
+    "url": "https://abc.net.au/semper/rutrum.xml?a=nonummy&libero=integer&nam=non&dui=velit&proin=donec&leo=diam&odio=neque&porttitor=vestibulum&id=eget&consequat=vulputate&in=ut&consequat=ultrices&ut=vel&nulla=augue&sed=vestibulum&accumsan=ante&felis=ipsum&ut=primis&at=in&dolor=faucibus&quis=orci&odio=luctus&consequat=et&varius=ultrices&integer=posuere&ac=cubilia&leo=curae&pellentesque=donec&ultrices=pharetra&mattis=magna&odio=vestibulum&donec=aliquet&vitae=ultrices&nisi=erat&nam=tortor&ultrices=sollicitudin&libero=mi&non=sit&mattis=amet&pulvinar=lobortis&nulla=sapien&pede=sapien&ullamcorper=non&augue=mi&a=integer&suscipit=ac&nulla=neque&elit=duis&ac=bibendum&nulla=morbi&sed=non&vel=quam&enim=nec&sit=dui&amet=luctus&nunc=rutrum&viverra=nulla&dapibus=tellus&nulla=in&suscipit=sagittis&ligula=dui&in=vel&lacus=nisl&curabitur=duis&at=ac&ipsum=nibh&ac=fusce&tellus=lacus&semper=purus&interdum=aliquet&mauris=at&ullamcorper=feugiat&purus=non&sit=pretium&amet=quis&nulla=lectus&quisque=suspendisse&arcu=potenti&libero=in&rutrum=eleifend&ac=quam",
+    "image": "http://dummyimage.com/21x15.png/ff4444/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Hodge",
+    "type": "Empty",
+    "price": 7,
+    "shipping": 0,
+    "upc": "Hello",
+    "description": "Tortolì Airport",
+    "manufacturer": "Kare",
+    "model": "Bird, secretary",
+    "url": "http://army.mil/viverra.xml?nisl=ac&nunc=consequat&nisl=metus&duis=sapien&bibendum=ut&felis=nunc&sed=vestibulum&interdum=ante&venenatis=ipsum&turpis=primis&enim=in&blandit=faucibus&mi=orci&in=luctus&porttitor=et&pede=ultrices&justo=posuere&eu=cubilia&massa=curae&donec=mauris&dapibus=viverra&duis=diam&at=vitae&velit=quam&eu=suspendisse&est=potenti&congue=nullam&elementum=porttitor&in=lacus&hac=at&habitasse=turpis&platea=donec&dictumst=posuere&morbi=metus&vestibulum=vitae&velit=ipsum",
+    "image": "http://dummyimage.com/13x61.png/dddddd/000000"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Kandace",
+    "type": "Full",
+    "price": 8,
+    "shipping": 0,
+    "upc": "Hi",
+    "description": "Allen Army Airfield",
+    "manufacturer": "Yoveo",
+    "model": "Eurasian beaver",
+    "url": "http://cargocollective.com/sed.png?ut=congue&suscipit=risus&a=semper&feugiat=porta&et=volutpat&eros=quam&vestibulum=pede&ac=lobortis&est=ligula&lacinia=sit&nisi=amet&venenatis=eleifend&tristique=pede&fusce=libero&congue=quis&diam=orci&id=nullam&ornare=molestie&imperdiet=nibh&sapien=in&urna=lectus&pretium=pellentesque&nisl=at&ut=nulla&volutpat=suspendisse&sapien=potenti&arcu=cras&sed=in&augue=purus&aliquam=eu&erat=magna&volutpat=vulputate&in=luctus&congue=cum&etiam=sociis&justo=natoque&etiam=penatibus&pretium=et&iaculis=magnis&justo=dis&in=parturient&hac=montes&habitasse=nascetur&platea=ridiculus&dictumst=mus&etiam=vivamus&faucibus=vestibulum&cursus=sagittis&urna=sapien&ut=cum&tellus=sociis&nulla=natoque&ut=penatibus&erat=et&id=magnis&mauris=dis&vulputate=parturient&elementum=montes&nullam=nascetur&varius=ridiculus&nulla=mus&facilisi=etiam&cras=vel&non=augue&velit=vestibulum&nec=rutrum&nisi=rutrum&vulputate=neque&nonummy=aenean&maecenas=auctor&tincidunt=gravida&lacus=sem&at=praesent&velit=id&vivamus=massa&vel=id&nulla=nisl&eget=venenatis&eros=lacinia&elementum=aenean&pellentesque=sit&quisque=amet&porta=justo&volutpat=morbi&erat=ut&quisque=odio&erat=cras&eros=mi&viverra=pede&eget=malesuada&congue=in&eget=imperdiet&semper=et",
+    "image": "http://dummyimage.com/11x17.png/ff4444/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Dedie",
+    "type": "Empty",
+    "price": 10,
+    "shipping": 0,
+    "upc": "Hello",
+    "description": "Ioannina Airport",
+    "manufacturer": "Divavu",
+    "model": "Wallaby, bennett's",
+    "url": "https://1und1.de/erat.html?cras=nec&non=sem&velit=duis&nec=aliquam&nisi=convallis&vulputate=nunc&nonummy=proin&maecenas=at&tincidunt=turpis&lacus=a&at=pede&velit=posuere&vivamus=nonummy&vel=integer&nulla=non&eget=velit&eros=donec&elementum=diam&pellentesque=neque&quisque=vestibulum&porta=eget&volutpat=vulputate&erat=ut&quisque=ultrices&erat=vel&eros=augue&viverra=vestibulum&eget=ante&congue=ipsum&eget=primis&semper=in&rutrum=faucibus&nulla=orci&nunc=luctus&purus=et&phasellus=ultrices&in=posuere&felis=cubilia&donec=curae&semper=donec&sapien=pharetra&a=magna&libero=vestibulum&nam=aliquet&dui=ultrices&proin=erat&leo=tortor&odio=sollicitudin&porttitor=mi&id=sit&consequat=amet&in=lobortis&consequat=sapien&ut=sapien&nulla=non&sed=mi&accumsan=integer&felis=ac&ut=neque&at=duis",
+    "image": "http://dummyimage.com/18x56.png/dddddd/000000"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Melissa",
+    "type": "Empty",
+    "price": 6,
+    "shipping": 0,
+    "upc": "Bye",
+    "description": "Skylark Field",
+    "manufacturer": "Demivee",
+    "model": "Eagle, crowned",
+    "url": "http://sogou.com/in.png?viverra=vel&diam=est&vitae=donec&quam=odio&suspendisse=justo&potenti=sollicitudin&nullam=ut&porttitor=suscipit&lacus=a&at=feugiat&turpis=et&donec=eros&posuere=vestibulum&metus=ac&vitae=est&ipsum=lacinia&aliquam=nisi&non=venenatis&mauris=tristique&morbi=fusce&non=congue&lectus=diam&aliquam=id&sit=ornare&amet=imperdiet&diam=sapien&in=urna&magna=pretium&bibendum=nisl&imperdiet=ut&nullam=volutpat&orci=sapien&pede=arcu&venenatis=sed&non=augue&sodales=aliquam&sed=erat&tincidunt=volutpat&eu=in&felis=congue&fusce=etiam&posuere=justo&felis=etiam&sed=pretium&lacus=iaculis&morbi=justo&sem=in&mauris=hac&laoreet=habitasse&ut=platea&rhoncus=dictumst&aliquet=etiam&pulvinar=faucibus&sed=cursus&nisl=urna&nunc=ut&rhoncus=tellus&dui=nulla&vel=ut&sem=erat&sed=id&sagittis=mauris&nam=vulputate&congue=elementum&risus=nullam&semper=varius&porta=nulla&volutpat=facilisi&quam=cras&pede=non&lobortis=velit&ligula=nec&sit=nisi&amet=vulputate&eleifend=nonummy&pede=maecenas&libero=tincidunt&quis=lacus&orci=at&nullam=velit&molestie=vivamus&nibh=vel&in=nulla&lectus=eget&pellentesque=eros&at=elementum&nulla=pellentesque&suspendisse=quisque&potenti=porta&cras=volutpat&in=erat",
+    "image": "http://dummyimage.com/20x42.png/ff4444/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Ambrose",
+    "type": "Half",
+    "price": 8,
+    "shipping": 0,
+    "upc": "Hi",
+    "description": "Sabha Airport",
+    "manufacturer": "Jetwire",
+    "model": "Penguin, little blue",
+    "url": "http://examiner.com/imperdiet.png?erat=non&id=ligula&mauris=pellentesque&vulputate=ultrices&elementum=phasellus&nullam=id&varius=sapien&nulla=in&facilisi=sapien&cras=iaculis&non=congue&velit=vivamus&nec=metus&nisi=arcu&vulputate=adipiscing&nonummy=molestie&maecenas=hendrerit&tincidunt=at&lacus=vulputate&at=vitae&velit=nisl&vivamus=aenean&vel=lectus&nulla=pellentesque&eget=eget&eros=nunc&elementum=donec&pellentesque=quis&quisque=orci&porta=eget&volutpat=orci&erat=vehicula&quisque=condimentum&erat=curabitur&eros=in&viverra=libero&eget=ut&congue=massa&eget=volutpat&semper=convallis&rutrum=morbi&nulla=odio&nunc=odio&purus=elementum&phasellus=eu&in=interdum&felis=eu&donec=tincidunt&semper=in&sapien=leo&a=maecenas&libero=pulvinar&nam=lobortis&dui=est&proin=phasellus&leo=sit&odio=amet&porttitor=erat&id=nulla&consequat=tempus&in=vivamus&consequat=in&ut=felis&nulla=eu&sed=sapien&accumsan=cursus&felis=vestibulum&ut=proin&at=eu&dolor=mi&quis=nulla&odio=ac&consequat=enim&varius=in&integer=tempor&ac=turpis&leo=nec&pellentesque=euismod&ultrices=scelerisque&mattis=quam&odio=turpis&donec=adipiscing&vitae=lorem&nisi=vitae",
+    "image": "http://dummyimage.com/16x16.png/cc0000/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Iorgo",
+    "type": "Full",
+    "price": 8,
+    "shipping": 0,
+    "upc": "Hello",
+    "description": "Istanbul Airport",
+    "manufacturer": "Quaxo",
+    "model": "European shelduck",
+    "url": "http://opera.com/sit/amet/sem/fusce/consequat/nulla/nisl.png?rutrum=neque&rutrum=aenean&neque=auctor&aenean=gravida&auctor=sem&gravida=praesent&sem=id&praesent=massa&id=id&massa=nisl&id=venenatis&nisl=lacinia&venenatis=aenean&lacinia=sit&aenean=amet&sit=justo",
+    "image": "http://dummyimage.com/15x50.png/ff4444/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Darcie",
+    "type": "Empty",
+    "price": 7,
+    "shipping": 0,
+    "upc": "Hi",
+    "description": "Sa Pran Nak Airport",
+    "manufacturer": "Talane",
+    "model": "Rhea, common",
+    "url": "http://1und1.de/vel/lectus/in.png?pellentesque=nullam&at=molestie&nulla=nibh&suspendisse=in&potenti=lectus",
+    "image": "http://dummyimage.com/22x59.png/ff4444/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Megan",
+    "type": "Empty",
+    "price": 10,
+    "shipping": 0,
+    "upc": "Hi",
+    "description": "Lethbridge County Airport",
+    "manufacturer": "Livefish",
+    "model": "Cockatoo, slender-billed",
+    "url": "http://rediff.com/posuere/felis/sed.json?enim=nunc&lorem=purus&ipsum=phasellus&dolor=in&sit=felis&amet=donec&consectetuer=semper&adipiscing=sapien&elit=a&proin=libero&interdum=nam&mauris=dui&non=proin&ligula=leo&pellentesque=odio&ultrices=porttitor&phasellus=id&id=consequat",
+    "image": "http://dummyimage.com/19x31.png/ff4444/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Lily",
+    "type": "Empty",
+    "price": 6,
+    "shipping": 0,
+    "upc": "Hi",
+    "description": "Reginaldo Hammer Airport",
+    "manufacturer": "Topicshots",
+    "model": "Cockatoo, red-tailed",
+    "url": "https://ihg.com/gravida/sem/praesent/id/massa.png?consequat=ultrices&morbi=posuere&a=cubilia&ipsum=curae&integer=mauris&a=viverra&nibh=diam&in=vitae&quis=quam&justo=suspendisse&maecenas=potenti&rhoncus=nullam&aliquam=porttitor&lacus=lacus&morbi=at&quis=turpis&tortor=donec&id=posuere&nulla=metus&ultrices=vitae&aliquet=ipsum&maecenas=aliquam&leo=non&odio=mauris&condimentum=morbi&id=non&luctus=lectus&nec=aliquam&molestie=sit&sed=amet&justo=diam&pellentesque=in&viverra=magna&pede=bibendum&ac=imperdiet&diam=nullam&cras=orci&pellentesque=pede&volutpat=venenatis&dui=non&maecenas=sodales&tristique=sed&est=tincidunt&et=eu&tempus=felis&semper=fusce&est=posuere&quam=felis&pharetra=sed&magna=lacus&ac=morbi&consequat=sem&metus=mauris&sapien=laoreet&ut=ut",
+    "image": "http://dummyimage.com/11x19.png/cc0000/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Gladi",
+    "type": "Half",
+    "price": 7,
+    "shipping": 0,
+    "upc": "Hello",
+    "description": "Huehuetenango Airport",
+    "manufacturer": "Bluezoom",
+    "model": "Eagle, crowned",
+    "url": "http://webmd.com/cursus.html?ridiculus=nulla&mus=eget&vivamus=eros&vestibulum=elementum&sagittis=pellentesque&sapien=quisque&cum=porta&sociis=volutpat&natoque=erat&penatibus=quisque&et=erat&magnis=eros&dis=viverra&parturient=eget&montes=congue&nascetur=eget&ridiculus=semper&mus=rutrum&etiam=nulla&vel=nunc&augue=purus",
+    "image": "http://dummyimage.com/10x81.png/cc0000/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Liliane",
+    "type": "Half",
+    "price": 8,
+    "shipping": 0,
+    "upc": "Bye",
+    "description": "Tulsipur Airport",
+    "manufacturer": "Browsetype",
+    "model": "Asian red fox",
+    "url": "http://digg.com/non/lectus/aliquam/sit/amet.jsp?et=sed&ultrices=accumsan&posuere=felis&cubilia=ut&curae=at&donec=dolor&pharetra=quis&magna=odio&vestibulum=consequat&aliquet=varius&ultrices=integer&erat=ac&tortor=leo&sollicitudin=pellentesque&mi=ultrices&sit=mattis&amet=odio&lobortis=donec&sapien=vitae&sapien=nisi&non=nam&mi=ultrices&integer=libero&ac=non&neque=mattis&duis=pulvinar&bibendum=nulla&morbi=pede&non=ullamcorper&quam=augue&nec=a&dui=suscipit&luctus=nulla&rutrum=elit&nulla=ac&tellus=nulla&in=sed&sagittis=vel&dui=enim&vel=sit&nisl=amet&duis=nunc&ac=viverra&nibh=dapibus&fusce=nulla&lacus=suscipit&purus=ligula&aliquet=in&at=lacus",
+    "image": "http://dummyimage.com/21x56.png/5fa2dd/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Anastasie",
+    "type": "Half",
+    "price": 6,
+    "shipping": 0,
+    "upc": "Bye",
+    "description": "Fishermans Airfield",
+    "manufacturer": "Kimia",
+    "model": "Chimpanzee",
+    "url": "http://java.com/enim/sit/amet/nunc/viverra/dapibus/nulla.json?ac=phasellus&nibh=id&fusce=sapien&lacus=in&purus=sapien&aliquet=iaculis&at=congue&feugiat=vivamus&non=metus&pretium=arcu&quis=adipiscing&lectus=molestie&suspendisse=hendrerit&potenti=at&in=vulputate&eleifend=vitae&quam=nisl&a=aenean&odio=lectus&in=pellentesque&hac=eget&habitasse=nunc&platea=donec&dictumst=quis&maecenas=orci&ut=eget&massa=orci&quis=vehicula&augue=condimentum&luctus=curabitur&tincidunt=in&nulla=libero&mollis=ut&molestie=massa&lorem=volutpat&quisque=convallis&ut=morbi&erat=odio&curabitur=odio&gravida=elementum&nisi=eu&at=interdum&nibh=eu&in=tincidunt&hac=in&habitasse=leo&platea=maecenas&dictumst=pulvinar&aliquam=lobortis&augue=est&quam=phasellus&sollicitudin=sit&vitae=amet&consectetuer=erat&eget=nulla&rutrum=tempus&at=vivamus&lorem=in&integer=felis&tincidunt=eu&ante=sapien&vel=cursus&ipsum=vestibulum&praesent=proin&blandit=eu&lacinia=mi&erat=nulla&vestibulum=ac&sed=enim&magna=in&at=tempor&nunc=turpis&commodo=nec&placerat=euismod&praesent=scelerisque&blandit=quam&nam=turpis&nulla=adipiscing&integer=lorem",
+    "image": "http://dummyimage.com/24x58.png/ff4444/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Inna",
+    "type": "Half",
+    "price": 8,
+    "shipping": 0,
+    "upc": "Bye",
+    "description": "Oswaldo Guevara Mujica Airport",
+    "manufacturer": "Edgewire",
+    "model": "Mountain duck",
+    "url": "https://omniture.com/libero/convallis/eget.jsp?lectus=tincidunt&pellentesque=ante&at=vel&nulla=ipsum&suspendisse=praesent&potenti=blandit&cras=lacinia&in=erat&purus=vestibulum&eu=sed&magna=magna&vulputate=at&luctus=nunc&cum=commodo&sociis=placerat&natoque=praesent&penatibus=blandit&et=nam&magnis=nulla&dis=integer&parturient=pede&montes=justo&nascetur=lacinia&ridiculus=eget&mus=tincidunt&vivamus=eget",
+    "image": "http://dummyimage.com/25x77.png/ff4444/ffffff"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Austen",
+    "type": "Half",
+    "price": 7,
+    "shipping": 0,
+    "upc": "Hello",
+    "description": "Carlisle Airport",
+    "manufacturer": "Riffpath",
+    "model": "Violet-eared waxbill",
+    "url": "http://spiegel.de/mauris/non/ligula/pellentesque/ultrices/phasellus.js?quam=vehicula&a=condimentum&odio=curabitur&in=in&hac=libero&habitasse=ut&platea=massa&dictumst=volutpat&maecenas=convallis&ut=morbi&massa=odio&quis=odio&augue=elementum&luctus=eu&tincidunt=interdum&nulla=eu&mollis=tincidunt&molestie=in&lorem=leo&quisque=maecenas&ut=pulvinar&erat=lobortis&curabitur=est&gravida=phasellus",
+    "image": "http://dummyimage.com/17x27.png/5fa2dd/ffffff"
+}
+]]></system-out>
+    <system-err><![CDATA[1292 [ProductsDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+-------------------------------------------------------------------------------------
+
+1431 [ProductsDataDrivenTest-2-thread-12] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1614 [ProductsDataDrivenTest-2-thread-12] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[11]
+-------------------------------------------------------------------
+1615 [ProductsDataDrivenTest-2-thread-12] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+1618 [ProductsDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1619 [ProductsDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[14]
+-------------------------------------------------------------------
+1619 [ProductsDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 2
+1624 [ProductsDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1625 [ProductsDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[6]
+-------------------------------------------------------------------
+1625 [ProductsDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 3
+1628 [ProductsDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1629 [ProductsDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[9]
+-------------------------------------------------------------------
+1630 [ProductsDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 4
+1669 [ProductsDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1671 [ProductsDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[8]
+-------------------------------------------------------------------
+1672 [ProductsDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 5
+1675 [ProductsDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1676 [ProductsDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[7]
+-------------------------------------------------------------------
+1676 [ProductsDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 6
+1679 [ProductsDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1680 [ProductsDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[0]
+-------------------------------------------------------------------
+1681 [ProductsDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 7
+1697 [ProductsDataDrivenTest-2-thread-2] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1707 [ProductsDataDrivenTest-2-thread-2] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[1]
+-------------------------------------------------------------------
+1708 [ProductsDataDrivenTest-2-thread-2] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 8
+1713 [ProductsDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1714 [ProductsDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[10]
+-------------------------------------------------------------------
+1714 [ProductsDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 9
+1716 [ProductsDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1717 [ProductsDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[4]
+-------------------------------------------------------------------
+1717 [ProductsDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 10
+1721 [ProductsDataDrivenTest-2-thread-13] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1722 [ProductsDataDrivenTest-2-thread-13] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[12]
+-------------------------------------------------------------------
+1722 [ProductsDataDrivenTest-2-thread-13] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 11
+1725 [ProductsDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1726 [ProductsDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[15]
+-------------------------------------------------------------------
+1727 [ProductsDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 12
+1733 [ProductsDataDrivenTest-2-thread-4] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1734 [ProductsDataDrivenTest-2-thread-4] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[3]
+-------------------------------------------------------------------
+1735 [ProductsDataDrivenTest-2-thread-4] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 13
+1749 [ProductsDataDrivenTest-2-thread-14] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1755 [ProductsDataDrivenTest-2-thread-14] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[13]
+-------------------------------------------------------------------
+1755 [ProductsDataDrivenTest-2-thread-14] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 14
+1758 [ProductsDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1759 [ProductsDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[2]
+-------------------------------------------------------------------
+1760 [ProductsDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 15
+1761 [ProductsDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+1764 [ProductsDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[5]
+-------------------------------------------------------------------
+1765 [ProductsDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 16
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProduct[4]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="8.674">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$3.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+  </testcase>
+  <testcase name="createMultipleProduct[6]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="8.774">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+    <system-err><![CDATA[10519 [ProductsDataDrivenTest-2-thread-5] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Creating multiple products with Data driven
+--------------------------------------------------------------------------
+10543 [ProductsDataDrivenTest-2-thread-5] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <201> but was <400>.
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProduct[8]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="8.789">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:164)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:164)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$2.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+    <system-err><![CDATA[10549 [ProductsDataDrivenTest-2-thread-7] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Creating multiple products with Data driven
+--------------------------------------------------------------------------
+10549 [ProductsDataDrivenTest-2-thread-7] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <201> but was <400>.
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProduct[10]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="8.79">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+    <system-err><![CDATA[10559 [ProductsDataDrivenTest-2-thread-9] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Creating multiple products with Data driven
+--------------------------------------------------------------------------
+10560 [ProductsDataDrivenTest-2-thread-9] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <201> but was <400>.
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProduct[11]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="8.802">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:164)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:164)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+    <system-err><![CDATA[10566 [ProductsDataDrivenTest-2-thread-11] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Creating multiple products with Data driven
+--------------------------------------------------------------------------
+10566 [ProductsDataDrivenTest-2-thread-11] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <201> but was <400>.
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProduct[1]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="8.804">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+  </testcase>
+  <testcase name="createMultipleProduct[7]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.005">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+    <system-err><![CDATA[10580 [ProductsDataDrivenTest-2-thread-12] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Creating multiple products with Data driven
+--------------------------------------------------------------------------
+10581 [ProductsDataDrivenTest-2-thread-12] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <201> but was <400>.
+10583 [ProductsDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+10584 [ProductsDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[17]
+-------------------------------------------------------------------
+10584 [ProductsDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 17
+10586 [ProductsDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+10586 [ProductsDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[16]
+-------------------------------------------------------------------
+10587 [ProductsDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 18
+10591 [ProductsDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+10592 [ProductsDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[18]
+-------------------------------------------------------------------
+10592 [ProductsDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 19
+10603 [ProductsDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - Test Suite Started: Products data driven test
+10604 [ProductsDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: createMultipleProduct[19]
+-------------------------------------------------------------------
+10604 [ProductsDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 20
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProduct[2]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.006">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+  </testcase>
+  <testcase name="createMultipleProduct[3]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.069"/>
+  <testcase name="createMultipleProduct[16]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.083">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+    <system-err><![CDATA[10674 [ProductsDataDrivenTest-2-thread-4] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Creating multiple products with Data driven
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProduct[18]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.093">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$2.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.bestinfo.ProductsDataDrivenTest.createMultipleProduct(ProductsDataDrivenTest.java:39)
+]]></failure>
+    <system-err><![CDATA[10688 [ProductsDataDrivenTest-2-thread-7] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Creating multiple products with Data driven
+--------------------------------------------------------------------------
+10688 [ProductsDataDrivenTest-2-thread-7] ERROR net.serenitybdd.core.Serenity - 1 expectation failed.Expected status code <201> but was <400>.
+]]></system-err>
+  </testcase>
+  <testcase name="createMultipleProduct[14]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.118"/>
+  <testcase name="createMultipleProduct[12]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.124"/>
+  <testcase name="createMultipleProduct[15]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.132"/>
+  <testcase name="createMultipleProduct[13]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.162"/>
+  <testcase name="createMultipleProduct[5]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.176"/>
+  <testcase name="createMultipleProduct[0]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.198"/>
+  <testcase name="createMultipleProduct[19]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.22"/>
+  <testcase name="createMultipleProduct[17]" classname="com.bestbuy.bestinfo.ProductsDataDrivenTest" time="0.237"/>
+</testsuite>

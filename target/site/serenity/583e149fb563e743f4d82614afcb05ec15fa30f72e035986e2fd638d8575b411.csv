@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing a different request on store","As a user I want to create store","PENDING","2023-01-11T04:39:48.850+10:00[Australia/Brisbane]","0.0","0.0"
+"Testing a different request on store","As a user I want to get created product with productId","PENDING","2023-01-11T04:39:48.944+10:00[Australia/Brisbane]","0.0","0.0"
+"Testing a different request on store","As a user I want to update the product with productId","PENDING","2023-01-11T04:39:49.106+10:00[Australia/Brisbane]","0.0","0.0"
+"Testing a different request on store","As a user I want to delete the product","PENDING","2023-01-11T04:39:49.253+10:00[Australia/Brisbane]","0.0","0.0"

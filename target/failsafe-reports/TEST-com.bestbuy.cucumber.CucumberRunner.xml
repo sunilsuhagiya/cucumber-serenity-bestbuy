@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.cucumber.CucumberRunner" time="0.393" tests="42" errors="2" skipped="17" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sunil\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\sunil\AppData\Local\Microsoft\WindowsApps;C:\Users\sunil\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sunil"/>
+    <property name="user.timezone" value="Australia/Brisbane"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sunil"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="When I create product with name &quot;Duracell&quot; type &quot;HardGood&quot; price&quot;8.50&quot; shipping&quot;7854226784&quot; upc&quot;Compatible with select electronic&quot; description&quot;Duracell&quot; manufacture&quot;&lt;manufacture&gt;&quot; model&quot;SG&quot; url&quot;http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC&quot; image&quot;http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg&quot;" classname="| Duracell | HardGood | 8.50 | 7854226784 | Compatible with select electronic | Duracell | MN1500B8Z | SG | http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg |" time="0.01">
+    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
+	at com.bestbuy.cucumber.steps.ProductCRUDStepDef.iCreateProductWithNameTypePriceShippingUpcDescriptionManufactureModelUrlImage(ProductCRUDStepDef.java:22)
+	at ✽.When I create product with name "Duracell" type "HardGood" price"8.50" shipping"7854226784" upc"Compatible with select electronic" description"Duracell" manufacture"<manufacture>" model"SG" url"http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&skuId=127687&cmp=RMXCC" image"http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg"(productCRUD.feature:6)
+]]></error>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3030/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Durecell_15873",
+    "type": "HardGood",
+    "price": 8,
+    "shipping": -735707808,
+    "upc": "Compatible with select electronic",
+    "description": "Duracell",
+    "manufacturer": "<manufacture>",
+    "model": "SG",
+    "url": "http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&skuId=127687&cmp=RMXCC",
+    "image": "http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg"
+}
+]]></system-out>
+    <system-err><![CDATA[13108 [main] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: This test will provide an error code of 400 when user tries to access an invalid resource
+----------------------------------------------------------------------------
+13433 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Provide a 500 status code when incorrect HTTP method is used to access resources to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\4480adcfb9bdad5f39bf16e8827f73012e88272c0bab7f6743206846a87b019e.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\4480adcfb9bdad5f39bf16e8827f73012e88272c0bab7f6743206846a87b019e.json66fcb5d9-7fcf-41ed-959b-7788526e639e)
+13433 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will verify if a status code of 200 is returned for GET request to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\3f5c1e2552e4c08c9f50e43e959bc5bd3eebe224c7073601d0d0276727f140ae.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\3f5c1e2552e4c08c9f50e43e959bc5bd3eebe224c7073601d0d0276727f140ae.json407c33b8-69f6-4c9e-a387-774bf475f280)
+13433 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This test will provide an error code of 400 when user tries to access an invalid resource to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\92206fd7f2bf50067c6980c4968e3e1de37c5db3566b5de08e25610d8c36369f.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\92206fd7f2bf50067c6980c4968e3e1de37c5db3566b5de08e25610d8c36369f.jsone099a7a1-0702-46e9-89de-24ce790911d6)
+14006 [pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product tags test:invalidMethod in 4480adcfb9bdad5f39bf16e8827f73012e88272c0bab7f6743206846a87b019e.html in directory target\site\serenity  
+14007 [pool-2-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product tags test:inCorrectResource in 92206fd7f2bf50067c6980c4968e3e1de37c5db3566b5de08e25610d8c36369f.html in directory target\site\serenity  
+14008 [pool-2-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product tags test:verifyIfTheStatusCodeIs200 in 3f5c1e2552e4c08c9f50e43e959bc5bd3eebe224c7073601d0d0276727f140ae.html in directory target\site\serenity  
+14824 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Testing different request on the best buy API
+14834 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Products CRUD Test
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="| Duracell | HardGood | 8.50 | 7854226784 | Compatible with select electronic | Duracell | MN1500B8Z | SG | http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg |" classname="| Duracell | HardGood | 8.50 | 7854226784 | Compatible with select electronic | Duracell | MN1500B8Z | SG | http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg |" time="0.012">
+    <error type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
+	at com.bestbuy.cucumber.steps.ProductCRUDStepDef.iCreateProductWithNameTypePriceShippingUpcDescriptionManufactureModelUrlImage(ProductCRUDStepDef.java:22)
+	at ✽.When I create product with name "Duracell" type "HardGood" price"8.50" shipping"7854226784" upc"Compatible with select electronic" description"Duracell" manufacture"<manufacture>" model"SG" url"http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&skuId=127687&cmp=RMXCC" image"http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg"(productCRUD.feature:6)
+]]></error>
+  </testcase>
+  <testcase name="And I verify user created" classname="| Duracell | HardGood | 8.50 | 7854226784 | Compatible with select electronic | Duracell | MN1500B8Z | SG | http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update product with name &quot;Duracell&quot; type &quot;HardGood&quot; price&quot;8.50&quot; shipping&quot;7854226784&quot; upc&quot;Compatible with select electronic&quot; description&quot;Duracell&quot; manufacture&quot;&lt;manufacture&gt;&quot; model&quot;SG&quot; url&quot;http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC&quot; image&quot;http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg&quot;" classname="| Duracell | HardGood | 8.50 | 7854226784 | Compatible with select electronic | Duracell | MN1500B8Z | SG | http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I check product updated successfully" classname="| Duracell | HardGood | 8.50 | 7854226784 | Compatible with select electronic | Duracell | MN1500B8Z | SG | http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I delete product" classname="| Duracell | HardGood | 8.50 | 7854226784 | Compatible with select electronic | Duracell | MN1500B8Z | SG | http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I verify that product deleted successfully" classname="| Duracell | HardGood | 8.50 | 7854226784 | Compatible with select electronic | Duracell | MN1500B8Z | SG | http://www.bestbuy.com/site/duracell-aa-batteries-8-pack/127687.p?id=1051384045676&amp;skuId=127687&amp;cmp=RMXCC | http://img.bbystatic.com/BestBuy_US/images/products/1276/127687_sa.jpg |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When As a User I create a product" classname="Scenario: As a user I want to create product" time="0"/>
+  <testcase name="Then User must get back a valid response 201" classname="Scenario: As a user I want to create product" time="0"/>
+  <testcase name="Scenario: As a user I want to create product" classname="Scenario: As a user I want to create product" time="0.079"/>
+  <testcase name="When I get product with productId" classname="Scenario: As a user I want to get created product with productId" time="0"/>
+  <testcase name="And I must get back a valid response 200" classname="Scenario: As a user I want to get created product with productId" time="0"/>
+  <testcase name="Scenario: As a user I want to get created product with productId" classname="Scenario: As a user I want to get created product with productId" time="0.038"/>
+  <testcase name="Scenario: As a user I want to get created product with productId" classname="Scenario: As a user I want to get created product with productId" time="0">
+    <skipped/>
+    <system-err><![CDATA[17944 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+17944 [main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: As a user I want to get created product with productId
+---------------------------------------------------------------------------------
+17949 [pool-17-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to get created product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.jsonda2c517a-7f96-4c59-bd3f-34d8534a2328)
+17959 [pool-17-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to update the product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.json3dfaac75-e06f-4d23-b0c1-158f13656d09)
+17980 [pool-17-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Products CRUD Test to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.jsonc5175501-e5c9-4de6-8a95-7b0e56c5100d)
+18011 [pool-17-thread-5] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to delete the product to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.jsonf2a1ee4d-0de4-4d25-ab30-c52ce4ec46b1)
+18011 [pool-17-thread-6] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for CRUD Test to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.json039101fe-d3b0-4b90-9774-768042b2c230)
+18012 [pool-17-thread-7] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to create store to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.jsondb709df1-797a-4471-b902-bb6b52fc58ea)
+18012 [pool-17-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to create product to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.json49d8dade-9e17-4406-923a-8fd2609740ed)
+18013 [pool-17-thread-8] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to get created product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\ab4b57ab5ec0f1f4ef6554bcea86551c562608a264f7713396545ee998d02120.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\ab4b57ab5ec0f1f4ef6554bcea86551c562608a264f7713396545ee998d02120.json3fba6198-ca7e-4a37-851e-7911ca941ec5)
+18065 [pool-18-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the best buy API:Products CRUD Test in 3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.html in directory target\site\serenity  
+18069 [pool-18-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to create product in 0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.html in directory target\site\serenity  
+18075 [pool-18-thread-5] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to delete the product in 5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.html in directory target\site\serenity  
+18077 [pool-18-thread-6] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Store Application:CRUD Test in b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.html in directory target\site\serenity  
+18079 [pool-18-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to update the product with productId in f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.html in directory target\site\serenity  
+18079 [pool-18-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to get created product with productId in d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.html in directory target\site\serenity  
+18080 [pool-18-thread-7] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:As a user I want to create store in c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.html in directory target\site\serenity  
+18081 [pool-18-thread-8] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:As a user I want to get created product with productId in ab4b57ab5ec0f1f4ef6554bcea86551c562608a264f7713396545ee998d02120.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: As a user I want to get created product with productId" classname="Scenario: As a user I want to get created product with productId" time="0.163"/>
+  <testcase name="When I update product with productId" classname="Scenario: As a user I want to update the product with productId" time="0"/>
+  <testcase name="Then I must get back a again valid response 200" classname="Scenario: As a user I want to update the product with productId" time="0"/>
+  <testcase name="Scenario: As a user I want to update the product with productId" classname="Scenario: As a user I want to update the product with productId" time="0.083"/>
+  <testcase name="Scenario: As a user I want to update the product with productId" classname="Scenario: As a user I want to update the product with productId" time="0">
+    <skipped/>
+    <system-err><![CDATA[18106 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+18106 [main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: As a user I want to update the product with productId
+---------------------------------------------------------------------------------
+18114 [pool-19-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to update the product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.jsonf87797bd-5d86-4ec4-8e67-09c8ed1ff4cb)
+18119 [pool-19-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to get created product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.json49569fe7-dbe6-479b-9e84-73842052be2b)
+18119 [pool-19-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to update the product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\a614c4584054bcdf86915dcead2b664e4e486665ad65ef2418f2aabd6c6f7944.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\a614c4584054bcdf86915dcead2b664e4e486665ad65ef2418f2aabd6c6f7944.json2a09ff58-b65c-452e-a685-832ecf69f204)
+18127 [pool-19-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Products CRUD Test to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.json91980676-c1cd-4280-b038-e9cdb0325755)
+18130 [pool-19-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to create product to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.json933c79b5-b2b8-4412-b258-707128af0d84)
+18134 [pool-19-thread-5] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to delete the product to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.json5b456cfc-8876-4661-82af-d020aac82158)
+18134 [pool-19-thread-6] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for CRUD Test to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.json72879bd2-16a2-4f71-86ad-8e82c49a104e)
+18134 [pool-19-thread-8] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to get created product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\ab4b57ab5ec0f1f4ef6554bcea86551c562608a264f7713396545ee998d02120.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\ab4b57ab5ec0f1f4ef6554bcea86551c562608a264f7713396545ee998d02120.json01fc91e9-8319-44a6-8a82-cb6449e8030b)
+18135 [pool-19-thread-7] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to create store to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.json9d62e9b4-0f04-4c83-bf6f-c73ffb0a1016)
+18154 [pool-20-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to create product in 0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.html in directory target\site\serenity  
+18154 [pool-20-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the best buy API:Products CRUD Test in 3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.html in directory target\site\serenity  
+18175 [pool-20-thread-5] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to delete the product in 5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.html in directory target\site\serenity  
+18185 [pool-20-thread-6] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Store Application:CRUD Test in b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.html in directory target\site\serenity  
+18186 [pool-20-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:As a user I want to update the product with productId in a614c4584054bcdf86915dcead2b664e4e486665ad65ef2418f2aabd6c6f7944.html in directory target\site\serenity  
+18190 [pool-20-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to get created product with productId in d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.html in directory target\site\serenity  
+18194 [pool-20-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to update the product with productId in f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.html in directory target\site\serenity  
+18198 [pool-20-thread-7] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:As a user I want to create store in c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.html in directory target\site\serenity  
+18240 [pool-20-thread-8] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:As a user I want to get created product with productId in ab4b57ab5ec0f1f4ef6554bcea86551c562608a264f7713396545ee998d02120.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: As a user I want to update the product with productId" classname="Scenario: As a user I want to update the product with productId" time="0.146"/>
+  <testcase name="When I delete product with productId" classname="Scenario: As a user I want to delete the product" time="0"/>
+  <testcase name="And I check prodct is deleted" classname="Scenario: As a user I want to delete the product" time="0"/>
+  <testcase name="Scenario: As a user I want to delete the product" classname="Scenario: As a user I want to delete the product" time="0.073"/>
+  <testcase name="Scenario: As a user I want to delete the product" classname="Scenario: As a user I want to delete the product" time="0">
+    <skipped/>
+    <system-err><![CDATA[18252 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+18253 [main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: As a user I want to delete the product
+---------------------------------------------------------------------------------
+18265 [pool-21-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Products CRUD Test to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.json48ad93d7-edf1-44c6-9ac4-cfc60cf68750)
+18270 [pool-21-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to update the product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\a614c4584054bcdf86915dcead2b664e4e486665ad65ef2418f2aabd6c6f7944.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\a614c4584054bcdf86915dcead2b664e4e486665ad65ef2418f2aabd6c6f7944.jsonbd857b94-2033-4421-8bea-0be1a5cb3c06)
+18280 [pool-21-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to delete the product to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\2dadf59766671b81f98536a888af96a291c4175fbc1790defec96bdcf8b03d8c.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\2dadf59766671b81f98536a888af96a291c4175fbc1790defec96bdcf8b03d8c.json1b38ddd8-ac8e-443b-9b2a-6882ec339e65)
+18284 [pool-21-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to create product to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.json52d72566-3f90-4c86-8f8d-f3fa0c28210e)
+18287 [pool-21-thread-5] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to delete the product to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.jsondcfd8730-4f86-4454-9670-737b139a579b)
+18292 [pool-21-thread-6] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for CRUD Test to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.jsond2dd5e08-e9e9-4371-ae65-59d27f32e836)
+18292 [pool-21-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to get created product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.json0ff267d5-52a0-4bad-b6ee-4610cf555a51)
+18294 [pool-21-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to update the product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.json154a6abe-3702-43b1-97b5-43b7498e3578)
+18295 [pool-21-thread-7] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to create store to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.json02a701d0-95e5-49ae-8f20-8cbaa90cb61b)
+18296 [pool-21-thread-8] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to get created product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\ab4b57ab5ec0f1f4ef6554bcea86551c562608a264f7713396545ee998d02120.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\ab4b57ab5ec0f1f4ef6554bcea86551c562608a264f7713396545ee998d02120.json4eb54b6c-5e3a-4e3f-b413-8002de038125)
+18305 [pool-22-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the best buy API:Products CRUD Test in 3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.html in directory target\site\serenity  
+18314 [pool-22-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to create product in 0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.html in directory target\site\serenity  
+18317 [pool-22-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:As a user I want to update the product with productId in a614c4584054bcdf86915dcead2b664e4e486665ad65ef2418f2aabd6c6f7944.html in directory target\site\serenity  
+18336 [pool-22-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to update the product with productId in f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.html in directory target\site\serenity  
+18337 [pool-22-thread-6] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Store Application:CRUD Test in b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.html in directory target\site\serenity  
+18343 [pool-22-thread-7] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:As a user I want to create store in c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.html in directory target\site\serenity  
+18343 [pool-22-thread-5] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to delete the product in 5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.html in directory target\site\serenity  
+18343 [pool-22-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to get created product with productId in d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.html in directory target\site\serenity  
+18344 [pool-22-thread-8] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:As a user I want to get created product with productId in ab4b57ab5ec0f1f4ef6554bcea86551c562608a264f7713396545ee998d02120.html in directory target\site\serenity  
+18345 [pool-22-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:As a user I want to delete the product in 2dadf59766671b81f98536a888af96a291c4175fbc1790defec96bdcf8b03d8c.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: As a user I want to delete the product" classname="Scenario: As a user I want to delete the product" time="0.104"/>
+  <testcase name="When I create store with name &quot;Hello&quot; type&quot;Empty&quot; address&quot;89 Lindwall&quot; address2&quot;&quot; city&quot;Mumbai&quot; state&quot;Maharashtra&quot; zip&quot;45025&quot; lat&quot;654&quot; lng&quot;87&quot; hours&quot;8&quot;" classname="| Hello | Empty | 89 Lindwall |  | Mumbai | Maharashtra | 45025 | 654 | 87 | 8 |" time="0"/>
+  <testcase name="And I verify store created" classname="| Hello | Empty | 89 Lindwall |  | Mumbai | Maharashtra | 45025 | 654 | 87 | 8 |" time="0"/>
+  <testcase name="And I update store with name &quot;Hello&quot; type&quot;Empty&quot; address&quot;89 Lindwall&quot; address2&quot;&quot; city&quot;Mumbai&quot; state&quot;Maharashtra&quot; zip&quot;45025&quot; lat&quot;654&quot; lng&quot;87&quot; hours&quot;8&quot;" classname="| Hello | Empty | 89 Lindwall |  | Mumbai | Maharashtra | 45025 | 654 | 87 | 8 |" time="0"/>
+  <testcase name="And I check store is updated successfully" classname="| Hello | Empty | 89 Lindwall |  | Mumbai | Maharashtra | 45025 | 654 | 87 | 8 |" time="0"/>
+  <testcase name="And I delete store" classname="| Hello | Empty | 89 Lindwall |  | Mumbai | Maharashtra | 45025 | 654 | 87 | 8 |" time="0"/>
+  <testcase name="Then I verify that store is deleted successfully" classname="| Hello | Empty | 89 Lindwall |  | Mumbai | Maharashtra | 45025 | 654 | 87 | 8 |" time="0"/>
+  <testcase name="| Hello | Empty | 89 Lindwall |  | Mumbai | Maharashtra | 45025 | 654 | 87 | 8 |" classname="| Hello | Empty | 89 Lindwall |  | Mumbai | Maharashtra | 45025 | 654 | 87 | 8 |" time="0.098"/>
+  <testcase name="When As a User I create a store" classname="Scenario: As a user I want to create store" time="0">
+    <skipped/>
+    <system-err><![CDATA[17844 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Testing a different request on store
+17847 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: As a user I want to create store
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Then User must get a valid response 201" classname="Scenario: As a user I want to create store" time="0">
+    <skipped/>
+    <system-err><![CDATA[17849 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: As a user I want to create store" classname="Scenario: As a user I want to create store" time="0">
+    <skipped/>
+    <system-err><![CDATA[17849 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+17850 [main] INFO net.serenitybdd.core.Serenity - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: As a user I want to create store
+---------------------------------------------------------------------------------
+17854 [pool-15-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Products CRUD Test to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.jsondedcd594-f8b6-4e35-9552-ba9c0852d4a5)
+17855 [pool-15-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to create product to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.json77031b6c-6e8e-4dd3-a555-ffab6fc40067)
+17855 [pool-15-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to get created product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.jsonc0d6e544-9c57-4bad-9117-ba1d341c5104)
+17858 [pool-15-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to update the product with productId to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.jsonb8eab614-9ca5-41bf-8389-4c728e9c3cb7)
+17862 [pool-15-thread-7] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to create store to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.json1dcefae5-3b66-409e-80b4-c8f45381d32d)
+17862 [pool-15-thread-6] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for CRUD Test to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.jsonc1edb02c-39bc-4832-a03f-6ae036c6df18)
+17862 [pool-15-thread-5] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for As a user I want to delete the product to file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.json (using temp file C:\Users\sunil\IdeaProjects\cucumber-serenity-bestbuy\target\site\serenity\5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.json2fb586bd-138d-43b6-8ea3-f2a5fb92b54a)
+17886 [pool-16-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to create product in 0c6ef2d0ae2d7cd2b3ea885736e2dac5394aab4601f1ff46754cc14717eeb00c.html in directory target\site\serenity  
+17887 [pool-16-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to get created product with productId in d041a43852ccf519a2b4fb65c3f08122fb0c3551cce72066d612483cb753b6b5.html in directory target\site\serenity  
+17888 [pool-16-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing different request on the best buy API:Products CRUD Test in 3163264539bd3bc495348563ae90a3cd96470fe51cb93bdb0550c604d5f40845.html in directory target\site\serenity  
+17904 [pool-16-thread-6] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Store Application:CRUD Test in b209ba29f2dc9aa6dbe903f1d44b8457df611591085b6346ab4aef218557a0b5.html in directory target\site\serenity  
+17905 [pool-16-thread-7] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on store:As a user I want to create store in c77e4651562f7d7cfa0cef10d1648a9a3087030110551f4930154c3aa83f7cdc.html in directory target\site\serenity  
+17905 [pool-16-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to update the product with productId in f61093ee8864a833ab9ab99f8d7f410c4f4bacd735ce6d08a65a428cc68b12f7.html in directory target\site\serenity  
+17918 [pool-16-thread-5] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Testing a different request on product:As a user I want to delete the product in 5fe33a9762b4a3ce54eeb9f679e0dddd3873c4204e442db1f3d4cb84762a2645.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: As a user I want to create store" classname="Scenario: As a user I want to create store" time="0.093"/>
+  <testcase name="When I get store with storeId" classname="Scenario: As a user I want to get created product with productId" time="0">
+    <skipped/>
+    <system-err><![CDATA[17941 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: As a user I want to get created product with productId
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="And I must get back a valid response" classname="Scenario: As a user I want to get created product with productId" time="0">
+    <skipped/>
+    <system-err><![CDATA[17943 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="When I update store with storeId" classname="Scenario: As a user I want to update the product with productId" time="0">
+    <skipped/>
+    <system-err><![CDATA[18104 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: As a user I want to update the product with productId
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Then I must get back again valid response" classname="Scenario: As a user I want to update the product with productId" time="0">
+    <skipped/>
+    <system-err><![CDATA[18105 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+  <testcase name="When I delete store with storeId" classname="Scenario: As a user I want to delete the product" time="0">
+    <skipped/>
+    <system-err><![CDATA[18250 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: As a user I want to delete the product
+-------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="And I check store is deleted" classname="Scenario: As a user I want to delete the product" time="0">
+    <skipped/>
+    <system-err><![CDATA[18251 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+]]></system-err>
+  </testcase>
+</testsuite>

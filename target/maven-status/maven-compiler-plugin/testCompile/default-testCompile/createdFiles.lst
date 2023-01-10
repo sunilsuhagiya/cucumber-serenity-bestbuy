@@ -1,0 +1,12 @@
+com\bestbuy\bestinfo\StoresTagsTest.class
+com\bestbuy\cucumber\steps\ProductCRUDStepDef.class
+com\bestbuy\bestinfo\ProductsCRUDTestWithSteps.class
+com\bestbuy\testbase\TestBase.class
+com\bestbuy\bestinfo\ProductTagsTest.class
+com\bestbuy\cucumber\CucumberRunner.class
+com\bestbuy\cucumber\steps\StoreCRUDStepDef.class
+com\bestbuy\bestinfo\ProductsDataDrivenTest.class
+com\bestbuy\bestinfo\StoresCRUDTestWithSteps.class
+com\bestbuy\testbase\TestBaseStores.class
+com\bestbuy\bestinfo\StoresDataDrivenTest.class
+com\bestbuy\cucumber\steps\ProductsSteps.class
